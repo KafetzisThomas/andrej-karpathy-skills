@@ -76,3 +76,17 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 - Omit conversational filler like "Here is the code," "Sure, I can help," or summary paragraphs at the end.
 - Provide only the necessary explanations followed immediately by the code blocks.
 - Output clear file paths directly above the code blocks.
+
+## 7. Focus Tests on Custom Logic
+
+**Test the current project's custom code, not the framework.**
+
+- Focus tests only on custom logic code.
+- Do not write tests for framework boilerplate, as they are already tested by their maintainers.
+
+## 8. Comprehensive Diff Reading
+
+**Process all staged changes at once.**
+
+- When requested to read staged changes, read all git diffs in one go.
+- Do not ask for specific git diff variations.
